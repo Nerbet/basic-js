@@ -1,6 +1,6 @@
 const CustomError = require("../extensions/custom-error");
 
-function createDreamTeam(members) {
+module.exports = function createDreamTeam(members) {
 let secretName = '';
 let chars = [];
 for(let i = 0; i < members.length; i++)
